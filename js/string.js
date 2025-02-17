@@ -46,14 +46,47 @@
 // Задача 2
 // Напишіть скрипт, який знаходить площу прямокутника. Висотою 23см, шириною 10см. Всі данні повинні зберігатися у змінних. Значення площі повинно зберігатися у числовій змінній, результат вивести у консоль шаблонним рядком.
 
-const rectangleHeight = "23см";
-const rectangleWidth = "10cм";
-const rectangleAll = parseInt(rectangleHeight);
-const rectangleAaa = parseInt(rectangleWidth);
-const rectangArea = rectangleAll * rectangleAaa;
-console.log(rectangleAll);
-console.log(rectangleAaa);
-console.log(`Площа прямокутника: ${rectangArea} см²`);
+// const rectangleHeight = "23см";
+// const rectangleWidth = "10cм";
+// const rectangleAll = parseInt(rectangleHeight);
+// const rectangleAaa = parseInt(rectangleWidth);
+// const rectangArea = rectangleAll * rectangleAaa;
+// console.log(rectangleAll);
+// console.log(rectangleAaa);
+// console.log(`Площа прямокутника: ${rectangArea} см²`);
+
+
+
+const result= 5+5+"5";
+console.log(result);
+console.log(typeof result);
+
+
+const email = "vlad@gmail.com"
+const hasChecked = email.includes("@");
+const length = email.length;
+console.log(hasChecked);
+console.log(length);
+
+
+
+const word1 = "My";
+const word2 = "name";
+const word3 = "is";
+let fullName = `${word1} ${word2} ${word3}`;
+fullName += " Viktor";
+console.log(fullName);
+
+
+const userName = "Олександра";
+const payment = 300;
+const message = `Дякуємо, ${userName} До сплати ${payment} гривень`;
+alert(message);
+
+
+
+
+
 
 
 
